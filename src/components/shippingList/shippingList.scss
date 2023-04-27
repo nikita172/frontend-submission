@@ -1,0 +1,152 @@
+.shippingList{
+  margin-top: 18px;
+  margin-right: 200px;
+  background: #FFFFFF;
+  border: 1px solid rgba(218, 218, 218, 0.4);
+  box-shadow: 39px 216px 88px rgba(0, 0, 0, 0.01), 22px 122px 74px rgba(0, 0, 0, 0.05), 10px 54px 55px rgba(0, 0, 0, 0.09), 2px 14px 30px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 14px;
+ display: flex;
+ justify-content: space-between;
+  padding: 18px 29px;
+ 
+
+  
+  .shippingListLeft{
+    
+    .top{
+      display: flex;
+      align-items: center;
+      font-style: normal;
+      font-family: 'Figtree';
+        font-size: 11px;
+      .bestVal{
+        background: #AFFFAD;
+        border-radius: 12px;
+
+        padding: 10px 20px;
+       
+        
+        .greenCircle{
+          padding: 0px 5px;
+          margin-right: 10px;
+          background: #05FF00;
+          border-radius: 50%;
+          
+          
+        }
+      }
+      .express{
+        color: #FF0000;
+        padding: 0px 10px;
+        border-right: 1px solid rgba(177, 177, 177, 0.6);
+      }
+      .est{
+        padding-left: 10px;
+        color: #565656;
+      }
+
+    }
+    .fromTo{
+      display: flex;
+      align-items: center;
+      font-family: 'Figtree';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      line-height: 120%;
+      color: #565656;
+      padding-top: 21px;
+
+
+      .location{
+        width:14px;
+        margin-right: 5px;
+      }
+      .aeroplane{
+        width:14px;
+      }
+      .border{
+        height: 1px;
+        background: #565656;
+        width: 24px;
+        margin: 2px;
+      }
+
+    }
+    .rating{
+      padding-top: 20px;
+      display: flex;
+      align-items: center;
+      .frameImg{
+        width: 20px;
+        height: 15px;
+        margin-right: 4px;
+      }
+      .primeTime{
+        font-family: 'Figtree';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 11px;
+        line-height: 120%;
+        /* or 13px */
+        
+        text-align: center;
+        
+        color: #808080;
+        margin-right: 14px;
+      }
+      .blueStar{
+        padding-right: 4px;
+      }
+    }
+  }
+  .shippingListRight{
+    border-left: 1px solid rgba(163, 163, 163, 0.4);;
+    padding: 24px 39px;
+    display: flex;
+    flex-direction: column;
+    .cost{
+      font-style: normal;
+      font-weight: 700;
+      font-size: 19px;
+      line-height: 120%;
+      /* identical to box height, or 23px */
+      
+      text-align: center;
+      font-family: 'Figtree';
+    }
+    .selectBtn{
+      font-family: 'Figtree';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 120%;
+      border: 0;
+      outline: 0;
+      margin-top: 14px;
+      text-align: center;
+      
+      color: #FFFFFF;
+      
+      background: #6F57E9;
+      border-radius: 14px;
+      padding: 10px 30px;
+    }
+    
+    .viewDetails{
+      font-family: 'Figtree';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 11px;
+      line-height: 120%;
+      /* or 13px */
+      
+      text-align: center;
+      text-decoration: underline;
+      
+      color: #363636;
+      padding-top: 7px;
+      
+    }
+  }
+}

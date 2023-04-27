@@ -1,0 +1,422 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.bookingContainer{
+background:  #F8F9FD;
+.summary{
+  display: flex;
+  padding-top: 40px;
+  
+  .summaryLeft{
+    flex:2;
+    display:flex;
+    flex-direction: column;
+    padding: 30px;
+    position: relative;
+
+   
+    .bookingSummary{      
+      height:250px;
+      background: #FFFFFF;
+      box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01), 0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09), 0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+      border-radius: 14px;
+      padding-top: 30px;
+      padding-left: 20px;
+      .cont{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .aeroplaneImg{
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+          position: absolute;
+          // left:400px;
+          // right:400px;
+          top:170px;
+          // flex:1;
+          .expressTag{
+            font-family: 'Figtree';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 13px;
+            line-height: 120%;
+           
+            
+          }
+          
+    
+         
+        }
+      }
+      
+      .bookingTitle{
+        font-style: normal;
+        font-weight: 700;
+        font-size: 23px;
+        line-height: 120%;
+        font-family: 'Figtree';
+      }
+      
+
+    }
+    
+    .lineConnect{
+      position: absolute;
+      height: 3px;
+      background-color: black;
+      width: auto;
+      left:180px;
+      right:180px;
+      top:220px;
+      
+     
+        
+        
+      
+    }
+    .buildingFirst{
+      height: 40px;
+      position: absolute;
+      top:200px;
+      left:135px;
+    }
+    .addressLeft{
+      position: absolute;
+      top:250px;
+      left:100px;
+      font-family: 'Figtree';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 19px;
+      line-height: 120%;
+      
+      
+      text-align: center;
+
+    }
+    .buildingSecond{
+      height: 40px;
+      position: absolute;
+      top:200px;
+      right: 135px;
+    }
+    .addressRight{
+      position: absolute;
+      top:250px;
+      right: 100px;
+      font-family: 'Figtree';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 19px;
+      line-height: 120%;
+      
+      
+      text-align: center;
+    }
+    
+    .weights{
+      display: flex;
+      margin-top: 10px;
+      
+      .weightFirst{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background: #FFFFFF;
+        box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01), 0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09), 0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+        border-radius: 14px;
+
+        .weightHeading{
+          font-style: normal;
+          font-weight: 600;
+          font-size: 19px;
+          line-height: 120%;         
+          text-align: center;         
+          color: #5C5C5C;
+          padding: 18px 23px;
+          font-family: 'Figtree';
+        }
+        .weightIcon{
+          height: 60px;
+          width: 60px;
+
+        }
+        .weight{
+          margin: 5px;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 19px;
+          line-height: 120%;
+          font-family: 'Figtree';
+
+        }
+        
+        
+      }
+      .weightSecond{
+        flex:2;       
+        box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01), 0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09), 0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+        border-radius: 14px;
+        background: #FFFFFF;
+        margin-left: 10px;
+        .loadTitle{
+          font-style: normal;
+          font-weight: 600;
+          font-size: 19px;
+          line-height: 120%;
+          font-family: 'Figtree';
+          padding: 15px 16px;
+
+        }
+        .loadMiddle{
+          
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          .loadQuantity{
+            font-style: normal;
+            font-weight: 700;
+            font-size: 24px;
+            line-height: 120%;
+            text-align: center;
+            letter-spacing: 0.39em;
+            font-family: 'Figtree';
+          }
+          .palletDetails{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .palletImg{
+              height: 40px;
+            }
+            .palletTitle{
+              font-style: normal;
+              font-weight: 700;
+              font-size: 16px;
+              text-align: center;
+              font-family: 'Figtree';
+              padding-top: 5px;
+            }
+            .palletSize{
+              font-style: normal;           
+              font-size: 14px;
+              line-height: 120%;
+              font-family: 'Figtree';
+              padding-top: 2px;
+              
+            }
+          }
+        }
+       
+      }
+      
+    }
+    .sellers{
+      margin-top: 10px;
+      display: flex;
+      
+      
+      .sellersLeft{
+        background: #FFFFFF;
+        box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01), 0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09), 0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+        border-radius: 14px;
+        flex:1;
+        margin-right: 10px;
+        .frame{
+          text-align: center;
+          padding-bottom:10px ;
+        }
+        .sellerDesc{
+          padding: 28px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 19px;
+          line-height: 120%;         
+          font-family: 'Figtree';
+          color: #5C5C5C;
+
+        }
+        
+      }
+      .sellersRight{
+        background: #FFFFFF;
+        box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01), 0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09), 0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+        border-radius: 14px;
+        flex: 1;
+        .frame{
+          text-align: center;
+          padding-bottom:10px ;
+        }
+        .sellerDesc{
+          padding: 28px;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 19px;
+          line-height: 120%;         
+          font-family: 'Figtree';
+          color: #5C5C5C;
+
+        }
+        
+      }
+
+    }
+  }
+  .summaryRight{
+    position: relative;
+    height: fit-content;
+    flex:1;
+    background: #FFFFFF;
+    box-shadow: 0px 196px 78px rgba(21, 31, 72, 0.01), 0px 110px 66px rgba(21, 31, 72, 0.05), 0px 49px 49px rgba(21, 31, 72, 0.09), 0px 12px 27px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+    border-radius: 14px;
+    margin: 30px;
+    padding-left: 25px;
+    padding-right: 52px;
+    .priceDetails{
+      display: flex;
+      align-items: center;
+      padding: 10px 25px;
+    }
+
+    .priceDetailTag{
+      font-family: 'Figtree';
+      font-style: normal;
+      font-weight: bolder;
+      font-size: 23px;
+      line-height: 120%;
+      
+    }
+    .verifiedLabel{
+      margin-left: 20px;
+      background: #E5E6E6;
+      border-radius: 23px;
+      display: flex;
+      align-items: center;
+      padding: 4px 8px;
+      font-family: 'Figtree';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 9.9318px;
+      line-height: 120%;
+      .starImg{
+        margin-right: 5px;
+      }
+    }
+
+
+    
+  }
+  .sellerQuote{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;   
+    padding-bottom: 20px;
+    border-bottom:1px solid rgba(179, 179, 179, 0.5);
+    
+    .sellerQuoteTag{
+      font-family: 'Figtree';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 120%;  
+      color: #808080;
+     
+    }
+  }
+  .taxesDesc{
+    padding-top: 20px;
+    .taxLabels{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: 'Figtree';
+      font-style: normal;
+
+      font-size: 15px;
+      line-height: 120%;
+      color: #808080;
+    }
+    .insurance{
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      font-family: 'Figtree';
+      font-style: normal;
+      padding-top: 15px;
+      font-size: 14px;
+      line-height: 120%;
+      color: #808080;
+    }
+    .smallDetail{
+      font-family: 'Figtree';
+      font-style: normal;
+      font-size: 12px;
+      line-height: 120%;
+      color: #808080;
+      padding-bottom: 20px;
+      border-bottom:1px solid rgba(179, 179, 179, 0.5);
+    }
+
+  }
+  .feeAndLink{
+    padding-top: 20px;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #808080;
+    .feeCount{
+      padding-top: 15px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding-bottom: 20px;
+      border-bottom:1px solid rgba(179, 179, 179, 0.5);
+    }
+  }
+  .finalPrice{
+    padding-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 120%;    
+    color: #000000;
+    font-family: 'Figtree';
+  }
+
+  .checkoutBtn{
+    margin-top: 30px;
+    background: #9747FF;
+    border-radius: 14px;
+    font-family: 'Figtree';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 120%;
+    color: #FFFFFF;
+    outline: 0;
+    border: 0;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+  .chatIconInHomePage{
+    position: fixed;
+    border-radius: 50%;
+    padding: 9px 13px;
+    right: 10px; 
+    bottom: 40px;
+   
+    background: linear-gradient(180deg, #9747FF 0%, #7C62FF 100%);
+    box-shadow: 24px 51px 23px rgba(0, 0, 0, 0.01), 13px 29px 19px rgba(0, 0, 0, 0.05), 6px 13px 14px rgba(0, 0, 0, 0.09), 1px 3px 8px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+  }
+
+}}

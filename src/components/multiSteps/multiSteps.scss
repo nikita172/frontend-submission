@@ -1,0 +1,47 @@
+.multiStepsDiv{
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-top: 60px;
+  padding-left: 438px;
+  padding-right: 438px;
+  width: auto;
+  .border{  
+    flex:1; 
+    width: auto;
+    height: 2px;
+    background-color: #D3B0FF;
+  }
+  .multi{
+    margin:3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    .steps{    
+      background: #D3B0FF;
+      border-radius: 50%;
+      padding: 10px 13px;
+      color: white;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      font-family: 'Figtree';
+      border-left: 2px solid #D3B0FF;
+    }
+    .step2{
+      display: flex;
+     
+    }
+    .stepsName{
+      position: absolute;
+      top:50px;
+      font-family: 'Figtree';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 13px;
+      width:max-content;
+    }
+  }
+}

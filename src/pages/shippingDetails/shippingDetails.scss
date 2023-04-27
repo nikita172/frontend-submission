@@ -1,0 +1,112 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+.shippingDetailsContainer{
+  background: #F8F9FD;
+  .load{
+    position: relative;
+    
+    
+    .loadTitle{
+      display: flex;
+      position: absolute;
+      align-items: center;
+      background: #FFFFFF;
+      border-radius: 14px;
+      left:190px;
+      top:50px;
+      font-family: 'Figtree';     
+      font-style: normal;
+      font-weight: 600;
+      font-size: 16px;
+      color: #868686;
+      padding: 10px 15px;
+      padding-right: 80px;
+      margin-left: 60px;
+      .loadImg{
+        width: 20px;
+        padding-right: 10px;
+      }
+    }
+    
+  }
+  .shippingBottom{
+    border-top: 1px solid rgba(180, 180, 180, 0.6);
+    display: flex;
+    .shippingLeft{
+      flex:1;
+      padding-left: 76px;
+      padding-right: 70px;
+      .quotes{
+        padding-top: 39px;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 120%;
+        font-family: 'Figtree';
+        .smallContent{
+          font-size: 14px;
+          font-weight: 100;
+          color:rgb(142, 142, 142)
+        }
+      }
+      .QuotesOption{
+        padding-top: 30px;
+        .list{
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          font-family: 'Figtree';
+          font-style: normal;
+          font-weight: 600;
+          font-size: 16px;
+          line-height: 120%;
+          padding-bottom: 20px;
+        }
+      }
+
+    }.shippingRight{
+      flex:3;
+      padding-top: 15px;
+      .shippingSelector{
+        display: flex;
+        background: #EBE8FF;
+        box-shadow: 14px 216px 86px rgba(21, 31, 72, 0.01), 8px 121px 73px rgba(21, 31, 72, 0.05), 3px 54px 54px rgba(21, 31, 72, 0.09), 1px 13px 30px rgba(21, 31, 72, 0.1), 0px 0px 0px rgba(21, 31, 72, 0.1);
+        border-radius: 14px;
+        width: fit-content;
+        margin-right: 40px;
+        
+        .selectors{
+          padding: 13px 56px;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 13px;
+          line-height: 120%;
+          color: #868686;
+          font-family: 'Figtree';
+        }
+        .selected{
+          color: #9747FF;
+          background: white;
+          border-radius: 15px;
+          background: #FFFFFF;
+          box-shadow: 4px 3px 10px rgba(0, 0, 0, 0.1);
+        }
+      }
+      .shippingLists{
+        padding-top: 12px;
+      }
+      .chatIconInHomePage{
+        position: fixed;
+        border-radius: 50%;
+        padding: 9px 13px;
+        right: 50px; 
+        bottom: 80px;
+       
+        background: linear-gradient(180deg, #9747FF 0%, #7C62FF 100%);
+        box-shadow: 24px 51px 23px rgba(0, 0, 0, 0.01), 13px 29px 19px rgba(0, 0, 0, 0.05), 6px 13px 14px rgba(0, 0, 0, 0.09), 1px 3px 8px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
+      }
+    }
+  }
+}
