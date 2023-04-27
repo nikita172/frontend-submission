@@ -3,9 +3,8 @@
   display: flex;
   align-items: center;
   padding-top: 60px;
-  padding-left: 438px;
-  padding-right: 438px;
-  width: auto;
+  margin:auto;
+  max-width: 700px;
   .border{  
     flex:1; 
     width: auto;
@@ -20,9 +19,15 @@
     justify-content: flex-start;
     position: relative;
     .steps{    
+      display: flex;
+      align-items: center;
+      justify-content: center;
       background: #D3B0FF;
       border-radius: 50%;
-      padding: 10px 13px;
+      width: 1em;
+      height: 1em;
+      padding: 10px;
+      text-align: center;
       color: white;
       font-style: normal;
       font-weight: 700;
