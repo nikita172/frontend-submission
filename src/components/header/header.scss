@@ -6,7 +6,7 @@
   background: #F8F9FD;
 
   .headerLeft{
-    flex: 3;
+    flex: 1;
     font-family: 'Instrument Serif', serif;
     font-size: 42px;
     font-weight: 600;
@@ -17,7 +17,7 @@
   .headerRight{
     display: flex;
     align-items: center;
-    flex: 1;
+  
 
     .loginBtn{
       color: white;

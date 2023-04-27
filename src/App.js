@@ -5,7 +5,7 @@ import ShippingDetails from './pages/shippingDetails/ShippingDetails'
 export default function App() {
   return (
     <div>
-      <Booking />
+      <ShippingDetails />
     </div>
   )
 }

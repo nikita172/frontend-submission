@@ -14,7 +14,7 @@ const ShippingDetails = () => {
     <div className='shippingDetailsContainer'>
       <Header show={show} showTrack={showTrack} />
       <div className='load'>
-        <div className="loadTitle"><img src={load} className='loadImg' />Load</div>
+        {/* <div className="loadTitle"><img src={load} className='loadImg' />Load</div> */}
         <MultiSteps />
       </div>
       <SearchBar />
